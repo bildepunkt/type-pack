@@ -1,0 +1,20 @@
+{
+  "name": "type-pack",
+  "version": "0.1.0",
+  "description": "Typescript & Webpack Basic Config",
+  "scripts": {
+    "tsc": "mkdir -p ./build && ./node_modules/typescript/bin/tsc",
+    "webpack": "mkdir -p ./build && ./node_modules/webpack/bin/webpack.js",
+    "clean": "rm -r build/*"
+  },
+  "author": "Chris Peters <bildepunkt@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bildepunkt/type-pack.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^2.4.2",
+    "webpack": "^3.3.0"
+  }
+}
