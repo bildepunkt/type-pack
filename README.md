@@ -3,8 +3,10 @@ type-pack
 
 Clone or fork for a base typescript/webpack build environment
 
-### install dependencies
+### Install dependencies
   npm install
 
-### compile your code
+### Compile your code
+Compiles/bundles all code in `./src` directory
+
   npm run tsc && npm run webpack
