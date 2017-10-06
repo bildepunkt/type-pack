@@ -8,6 +8,6 @@ Clone or fork for a base typescript/webpack build environment
     npm install
 
 ### Compile your code
-Compiles/bundles all code in `./src` directory  
+Compiles/bundles all code in `./src` directory. (requires an `index.ts` file)
 
     npm run tsc && npm run webpack
